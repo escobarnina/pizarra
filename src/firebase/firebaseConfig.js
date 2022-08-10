@@ -1,15 +1,14 @@
-import {initializeApp} from "firebase/app";
-import {getAuth} from "firebase/auth";
-import {getFirestore} from "firebase/firestore";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC4PipekWPzxEzFFQuGAWGqrLBlGIIlQKI",
-    authDomain: "board-sw1.firebaseapp.com",
-    projectId: "board-sw1",
-    storageBucket: "board-sw1.appspot.com",
-    messagingSenderId: "865686831321",
-    appId: "1:865686831321:web:a630430ce136d1d3bd3ec8",
-    measurementId: "G-Z4P5VHM4QG"
+    apiKey: "AIzaSyAk6UvNyo6wy4PO-DVzMPxlkvLijXWmpV4",
+    authDomain: "pizarra-a7a94.firebaseapp.com",
+    projectId: "pizarra-a7a94",
+    storageBucket: "pizarra-a7a94.appspot.com",
+    messagingSenderId: "62273811532",
+    appId: "1:62273811532:web:28ff2f0bc078c679a4b0e9"
 };
 
 // Initialize Firebase
